@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Task 1");
         int age = 18;
-        if (age <= 18) {
+        if (age < 18) {
             System.out.println("Если возраст человека равен " + age + " он совершеннолетний.");
         }
         int age1 = 7;
@@ -58,7 +58,7 @@ public class Main {
             System.out.println("Если возраст ребенка равен "+age001+", то ему нельзя кататься на аттракционе.");
         }
         int age002=12;
-        if (age002>5 || age002<14){
+        if (age002>5 && age002<14){
             System.out.println("Eсли возраст ребенка равен "+age002+", то ему можно кататься на аттракционе в сопровождении.");
         }
         int age003=17;
